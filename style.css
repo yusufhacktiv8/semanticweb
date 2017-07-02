@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: arial;
+  /*background-color: #262626;*/
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+header img {
+  float: left;
+}
+
+header nav {
+  float: left;
+  top: 0;
+}
+
+header nav li {
+  margin: 0 10px;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #000;
+}
+
+header nav li img {
+  display: inline;
+}
+
+.social-icons {
+  float: right;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.social-icons img {
+  margin: 5px;
+  width: 18px;
+  height: 18px;
+}
+
+.social-icons button {
+  border: 1px solid gray;
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #444;
+}
+
+section {
+  position: relative;
+  top: 70px;
+  margin-bottom: 50px;
+}
+
+.projects-caption {
+  width: 100%;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+
+.project-card-container {
+  padding: 30px;
+}
+
+.project-card {
+  width: 270px;
+  height: 300px;
+  margin: 12px;
+  display: inline-block;
+}
+
+.project-card .title {
+  position: relative;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 10px;
+  width: 270px;
+}
+
+.project-card .description {
+  font-size: 12px;
+  width: 270px;
+  color: gray;
+  margin-top: 7px;
+}
+
+.project-card img {
+  width: 270px;
+  height: 270px;
+  display: inline;
+}
+
+footer {
+  margin: 0;
+  position: relative;
+  top: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+footer h5 {
+
+}
